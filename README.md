@@ -1,54 +1,31 @@
-# Proyecto de Gestión de vacantes y compañias
+# Proyecto de Administración de Vacantes y Compañías
 
-
-
-<img>![image](https://github.com/user-attachments/assets/23e5520d-6515-4f46-a5e0-311b22675052)
-<img/>
-
-## Descripción
-
-Este proyecto consiste en desarrollar una aplicación web de gestión de vacantes y compañias. La aplicación permitirá a los usuarios administrar las compañias y los vacantes, agregar nuevas vacantes y compañías, y realizar seguimiento de las mismas. El objetivo es facilitar la gestión de vacantes y compañias de una manera eficiente y eficaz.
-
-## Enlace de Despliegue
-
-Puedes acceder a la aplicación en https://vacantes-taupe.vercel.app/home
-
-## Funcionalidades
-
-- **Gestión de Vacantes y Compañías**: Los usuarios pueden agregar,editar y eliminar vacantes y compañías, así como ver la información detallada de cada una.
-- **Búsqueda y Filtrado**: Funcionalidades de búsqueda para encontrar rápidamente vacantes y compañías.
-- **Interfaz de Usuario Amigable**: Un diseño intuitivo y fácil de usar que facilita la navegación y la gestión de datos.
+Este proyecto es una plataforma administrativa para gestionar vacantes y compañías, desarrollado con Next.js y aplicando Atomic Design. Su objetivo es ofrecer una interfaz modular y escalable pero sobre todo limpio.
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: 
-  - React
-  - TypeScript
-  - SASS
-  - nexts js
+- Next.js 14
+- React 18
+- Sass
 
 ## Instalación
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/VICENTVANGOG/vacantes.git
-    ```
+1. Clonar el repositorio:
+ 
+   git clone https://github.com/mariaisva2/administration-system.git
+   
+2. Instalar las dependencias:
 
-2. Navega al directorio del proyecto:
-    ```bash
-    cd proyecto-inventarios
-    ```
+   npm install
+   
+3. Ejecutar el proyecto en modo desarrollo:
 
-3. Instala las dependencias:
-    ```bash
-    npm install
-    ```
+   npm run dev
+   
+4. Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
-4. Inicia el servidor de desarrollo:
-    ```bash
-    npm start
-    ```
+## Funcionalidades
 
-5. Abre tu navegador y navega a `http://localhost:3000`.
-
-¡Espero que esto sea de ayuda y que tu proyecto tenga mucho éxito! 🚀
+- Panel de Administración: Cambia entre la vista de vacantes y compañías.
+- Formularios Modales: Para agregar y editar vacantes o compañías.
+- Listados: Muestra tarjetas con detalles, y opciones para editar o eliminar.
