@@ -1,0 +1,31 @@
+
+.container {
+    flex: 0 1 calc(33.33% - 16px);
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: rgb(74, 74, 74);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .text {
+    margin-top: 10px;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+    font-weight: 100;
+    color: rgb(75, 85, 99);
+  }
+  
+  .title {
+    color: rgb(31, 41, 55);
+  }
+  

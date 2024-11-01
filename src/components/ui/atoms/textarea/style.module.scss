@@ -1,0 +1,19 @@
+
+.myTextarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    height: 100px; 
+    background-color: white;
+    color: black;
+
+
+    &:focus {
+      outline: none;
+      border-color: rgb(236, 72, 153);
+      box-shadow: 0 0 0 2px rgb(236, 72, 153);
+  }
+  }
+  

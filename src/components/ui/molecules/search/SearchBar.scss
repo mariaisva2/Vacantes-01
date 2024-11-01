@@ -1,0 +1,38 @@
+
+.search-bar {
+    position: relative;
+  
+    &__input {
+      padding-left: 2.5rem;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      border: 1px solid #d1d5db;
+      border-radius: 1rem;
+      background-color: white;
+      color: #000000;
+      &:focus {
+        outline: none;
+        border-color: black;
+      }
+    }
+  
+    &__icon {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #000000;
+    }
+    &:focus {
+      outline: none;
+      border-color: rgb(236, 72, 153);
+      box-shadow: 0 0 0 2px rgb(236, 72, 153);
+  }
+
+  &::placeholder {
+      color: rgb(156, 163, 175);
+      opacity: 1; 
+  }
+  }
+  

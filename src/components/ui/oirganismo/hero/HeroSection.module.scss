@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+  }
+  
+  .actionButtons {
+    display: flex;
+    align-items: center;
+  }
+
+  .letra{
+    font-size: x-large;
+    color: black;
+  }
+  
+  .actionButtons button {
+    display: flex; 
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: none; 
+    border-radius: 25px; 
+    color: #fff; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background-color 0.3s;
+  
+    &:hover {
+      opacity: 0.9;
+    }
+  
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+  
