@@ -12,7 +12,7 @@ Este proyecto es una plataforma administrativa para gestionar vacantes y compañ
 
 1. Clonar el repositorio:
  
-   git clone https://github.com/mariaisva2/administration-system.git
+   git clone https://github.com/mariaisva2/Vacantes-01
    
 2. Instalar las dependencias:
 
